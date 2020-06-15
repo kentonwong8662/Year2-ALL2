@@ -1,0 +1,21 @@
+Author: Wong Tsun Wing, Kenton
+Created on 28th November 2018
+
+
+A quick guidelines to use the website system and the POS system in this ALL project.
+
+
+Starting steps:
+
+	1. Please install the XAMPP and Python 3.6
+	2. Install pymysql and scrolledtext to Python 3.6
+	3. Start the Apache and MySQL in XAMPP Control Panel
+	4. Import the 'pos.sql' file in 'database' folder to the XAMPP phpMyAdmin
+	
+
+For using the POS system, please change the location of the Python program in the 'POSgui.py' in 'POS system' folder, then open it.
+
+
+For using the website system, please copy and paste the 'htdocs' folder and 'cgi-bin' folder in 'website system' folder to the XAMPP main folder.
+(If you already have this two folder in your XAMPP main folder, please copy the files in each folder and paste them to the same location folder in your XAMPP main folder.)
+**'cloudon.html' is the main page of the Cloudson website.
